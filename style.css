@@ -10,7 +10,7 @@
 
 header {
     background-color: rgb(173, 173, 173);
-    display: flex;
+    display: block;
 }
 
 .youtube {
@@ -31,17 +31,18 @@ header {
     display: inline-block;
     width:350px;
     margin:10px;
+    vertical-align: top;
     
 }
 
 
 .vid-title {
     font-weight: bold;
-
+    margin-bottom: 10px;
 }
 
 .vid-author, .vid-stats {
     display: block;
-    margin:10px;
+    margin:0px;
 }
  
