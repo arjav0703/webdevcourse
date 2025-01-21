@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
 }
 .thumbnail {
     display: block;
@@ -40,15 +42,15 @@ header {
     display: inline-block;
     font-weight: bold;
     font-size: 16px;
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 10px;
+    margin-top: 0px;
+    
+    margin-bottom: 10px;
 }
 
 .vid-author, .vid-stats {
     display: block;
     margin:0px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
  
 .pfp {
@@ -69,8 +71,8 @@ header {
 .vid-info {
     display: inline-block;
     width: 270px;
-    padding-left: 13px;
-    padding-top: 0px;
+    margin-left: 13px;
+    margin-top: 0px;
 }
 .vid-details {
     margin-top: 16px;
