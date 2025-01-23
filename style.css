@@ -5,8 +5,7 @@ p {
 }
 
 .thumbnail {
-    display: block;
-    width: 350px;
+    width: 100%;
     height: auto;
     border-radius: 3%;
     }
@@ -22,6 +21,15 @@ header {
     margin-right: 20px;
 }
 
+.main-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+
 .searchbox {
     font-size: 20px;
     margin-left: 12px;
@@ -30,13 +38,7 @@ header {
     
 }
 
-.vid-container {
-    display: inline-block;
-    width:350px;
-    margin:10px;
-    vertical-align: top;
-    
-}
+
 
 
 .vid-title {
